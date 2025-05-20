@@ -80,7 +80,7 @@ class DetermineColor(Node):
         elif count_r < count_b:
             return 'B'
         else:
-            'Unknown'
+            return 'Unknown'
 
 if __name__ == '__main__':
     rclpy.init()
